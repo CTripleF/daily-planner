@@ -20,7 +20,7 @@ $('.description')
       $(this).addClass('present');
     }
   }
-  );
+);
 
 
 //onclick event listener for save buttons
@@ -33,7 +33,7 @@ $(".saveBtn").on("click", function (){
   var key = textArea.attr("id");
   console.log(parent)
   localStorage.setItem(key, descValue);
-})
+});
 
 
 for (i=8; i<18; i++){
